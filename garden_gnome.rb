@@ -4,7 +4,7 @@ class GardenGnome
   attr_writer :name,:ages, :gluten_allergy, :hat_color
 
 
-def initialize (hat_color)
+def initialize (hat_color = "red")
   @personality = evil 
   @hat_color = hat_color
   end
